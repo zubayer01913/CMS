@@ -45,6 +45,7 @@ namespace cms.app.ContentManagements
 
 
         //It is not used
+        [Obsolete]
         public async Task<ContentManagementDto> InsertOrUpdateAsync(Guid? id, CreateOrUpdateContentManagementDto input)
         {
             if (id.HasValue)
