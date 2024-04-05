@@ -1,0 +1,12 @@
+.truncate {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Number of lines to show */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .action-buttons button {
+    display: inline-block;
+    margin-right: 5px; /* Adjust spacing between buttons as needed */
+  }
+  
